@@ -1,0 +1,111 @@
+.fundo-img {
+    background-color: #161a1e;
+    background-image: url(../imagens/fundo2Horizon.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5vh;
+}
+
+.titulo-home {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fbfbfb;
+    font-size: 12vh;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.paragrafo {
+    text-align: center;
+    color: #fbfbfb;
+    text-align: center;
+    margin-top: 5vh;
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 50vh;
+    padding-left: 50vh;
+}
+
+.paragrafo-footer {
+    color: #fbfbfb;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 15vh;
+}
+
+footer {
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 40vh;
+    height: 20vh;
+
+}
+
+.header-home {
+    background-color: #161a1e81;
+    height: 15vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+nav ul li a {
+    color: white;
+}
+
+/*Celular*/
+@media only screen and (max-width: 640px) {
+    .fundo-img {
+        background-color: #161a1e;
+        background-image: none;
+    }
+
+    .titulo-home {
+        font-family: 'Bebas Neue', sans-serif;
+        color: #fbfbfb;
+        font-size: 30px;
+        margin-right: 28%;
+        margin-left: 15%;
+        margin-top: 0;
+
+    }
+
+    .paragrafo {
+        color: #fbfbfb;
+        text-align: center;
+        margin-top: 5vh;
+        font-weight: 600;
+        font-size: 20px;
+        padding-right: 30%;
+        padding-left: 15%;
+    }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 641px) and (max-width: 2.000px) {
+    .fundo-img {
+        background-color: #161a1e;
+        background-image: none;
+    }
+
+    .titulo-home {
+        font-family: 'Bebas Neue', sans-serif;
+        color: #fbfbfb;
+        font-size: 30px;
+        margin-right: 28%;
+        margin-left: 15%;
+        margin-top: 0;
+
+    }
+
+    .paragrafo {
+        color: #fbfbfb;
+        text-align: center;
+        margin-top: 5vh;
+        font-weight: 600;
+        font-size: 20px;
+        padding-right: 30%;
+        padding-left: 15%;
+    }
+}
