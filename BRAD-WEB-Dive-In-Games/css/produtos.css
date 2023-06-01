@@ -1,0 +1,335 @@
+.grid-conteudos {
+    display: grid;
+    grid-template-columns: repeat(2fr, 1fr);
+}
+
+.horizon-container {
+    margin-left: 53vh;
+    margin-right: 45vh;
+    margin-bottom: 8vh;
+    margin-top: 8.5vh;
+}
+
+.img-horizon {
+    width: 170%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.horizon-container {
+    padding-right: 16%;
+}
+
+.grid-jogos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 5%;
+}
+
+.spider-box {
+    margin-right: 9vh;
+}
+
+.spider-container {
+    background: rgb(229, 142, 39);
+    background: radial-gradient(circle, rgba(229, 143, 39, 0.15) 0%, rgba(22, 26, 30, 0.966) 65%);
+    width: 260px;
+    height: 370px;
+    border-radius: 15px;
+}
+
+.subtitulo-spider {
+    color: #fbfbfb;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.spider-plataforma {
+    color: #9a9a9a;
+}
+
+.spider-img {
+    width: 210px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.little-nightmare-container {
+    background: rgb(229, 142, 39);
+    background: radial-gradient(circle, rgba(229, 143, 39, 0.15) 0%, rgba(22, 26, 30, 0.966) 65%);
+    width: 260px;
+    height: 370px;
+    border-radius: 15px;
+}
+
+.subtitulo-little-nightmare {
+    color: #fbfbfb;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.little-nightmare-plataforma {
+    color: #9a9a9a;
+}
+
+.little-nightmare-img {
+    width: 210px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/*Ghost*/
+
+.ghost-container {
+    background: rgb(229, 142, 39);
+    background: radial-gradient(circle, rgba(229, 143, 39, 0.15) 0%, rgba(22, 26, 30, 0.966) 65%);
+    width: 260px;
+    height: 370px;
+    border-radius: 15px;
+}
+
+.subtitulo-ghost {
+    color: #fbfbfb;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.ghost-plataforma {
+    color: #9a9a9a;
+}
+
+.ghost-img {
+    width: 210px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+main {
+    margin-bottom: 40vh;
+
+}
+
+.grid-botao-spider {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 7vh;
+}
+
+.botao-spider {
+    border-radius: 25px;
+    text-align: center;
+    width: 140px;
+    height: 35px;
+    border-style: none;
+    background-color: #e58e27;
+    color: #161a1e;
+    font-weight: 700;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 3vh;
+    margin-top: 0.5vh;
+}
+
+.p-botao-spider {
+    font-size: 2.5vh;
+    color: #e58e27;
+    text-align: center;
+    margin-top: 1vh;
+    margin-right: 6vh;
+}
+
+.grid-botao-little-night {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 7vh;
+}
+
+.botao-little-night {
+    border-radius: 25px;
+    text-align: center;
+    width: 140px;
+    height: 35px;
+    border-style: none;
+    background-color: #e58e27;
+    color: #161a1e;
+    font-weight: 700;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 3vh;
+    margin-top: 0.5vh;
+}
+
+.p-botao-little-night {
+    font-size: 2.5vh;
+    color: #e58e27;
+    text-align: center;
+    margin-top: 1vh;
+    margin-right: 6vh;
+}
+
+.grid-botao-ghost {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 7vh;
+}
+
+.botao-ghost {
+    border-radius: 25px;
+    text-align: center;
+    width: 140px;
+    height: 35px;
+    border-style: none;
+    background-color: #e58e27;
+    color: #161a1e;
+    font-weight: 700;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0.5vh;
+    margin-right: 3vh;
+}
+
+.p-botao-ghost {
+    font-size: 2.5vh;
+    color: #e58e27;
+    text-align: center;
+    margin-top: 1vh;
+    margin-right: 6vh;
+}
+
+/*Celular*/
+@media only screen and (max-width: 640px) {
+    .grid-conteudos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .horizon-container {
+        display: none;
+    }
+
+    .img-horizon {
+        display: none;
+    }
+
+
+    .grid-jogos {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150vh;
+    }
+
+    .spider-box {
+        margin-bottom: 10vh;
+    }
+
+    .little-nightmare-box {
+        margin-bottom: 10vh;
+    }
+
+    main {
+        margin-bottom: 40vh;
+
+    }
+
+    .spider-container {
+        width: 39vh;
+        height: 56vh;
+        margin-left: 10vh;
+    }
+
+    .little-nightmare-container {
+        width: 39vh;
+        height: 56vh;
+        margin-left: 10vh;
+    }
+
+    .ghost-container {
+        width: 39vh;
+        height: 56vh;
+        margin-left: 10vh;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 641px) and (max-width: 2.000px) {
+    .grid-conteudos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .horizon-container {
+        display: none;
+    }
+
+    .img-horizon {
+        display: none;
+    }
+
+
+    .grid-jogos {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 130vh;
+    }
+
+    .spider-box {
+        margin-bottom: 10vh;
+    }
+
+    .little-nightmare-box {
+        margin-bottom: 10vh;
+    }
+
+    main {
+        margin-bottom: 40vh;
+
+    }
+
+    .spider-container {
+        width: 39vh;
+        height: 56vh;
+        margin-left: 10vh;
+    }
+
+    .little-nightmare-container {
+        width: 39vh;
+        height: 56vh;
+        margin-left: 10vh;
+    }
+
+    .ghost-container {
+        width: 39vh;
+        height: 56vh;
+        margin-left: 10vh;
+    }
+
+    .logo {
+        display: none;
+    }
+}

@@ -1,0 +1,211 @@
+.categorias {
+    background: rgb(229, 142, 39);
+    background: radial-gradient(circle, rgba(229, 143, 39, 0.083) 0%, rgba(22, 26, 30, 0.9416141456582633) 90%);
+    width: 19%;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 10vh;
+    top: 26.5vh;
+    height: 820px;
+}
+
+.categorias section {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.categorias section h3 {
+    color: #fbfbfb;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.categorias p {
+    color: #9a9a9a;
+}
+
+.indy {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}
+
+.aventura {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.mmo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.jogos-casuais {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.estrategia {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.simulador {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.jogos-de-esporte {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.jogos-acao {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}
+
+.pc {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.ps5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.ps4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.xbox {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.nintendo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.categorias div p {
+    padding-left: 10px;
+}
+
+.precos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.preco-min {
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    background-color: #333435;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.preco-max {
+    margin-left: 10px;
+    margin-right: 25px;
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    background-color: #333435;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.traco {
+    padding-left: 2vh;
+    padding-top: 12px;
+}
+
+button {
+    border-radius: 25px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border-style: none;
+    background-color: #e58e27;
+    color: #161a1e;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 2vh;
+}
+
+button:hover {
+    background-color: #ad6308;
+    color: #fbfbfb;
+    transition: 0.6s;
+}
+
+/*Celular*/
+@media only screen and (max-width: 640px) {
+    .categorias {
+        background: rgb(229, 142, 39);
+        background: radial-gradient(circle, rgba(229, 143, 39, 0.083) 0%, rgba(22, 26, 30, 0.9416141456582633) 90%);
+        width: 45vh;
+        border-radius: 20px;
+        position: absolute;
+        margin-left: 10vh;
+        top: 26.5vh;
+        height: 820px;
+    }
+
+}
+
+/*Tablets*/
+@media only screen and (min-width: 641px) and (max-width: 2.000px) {
+    .categorias {
+        background: rgb(229, 142, 39);
+        background: radial-gradient(circle, rgba(229, 143, 39, 0.083) 0%, rgba(22, 26, 30, 0.9416141456582633) 90%);
+        width: 45vh;
+        border-radius: 20px;
+        position: absolute;
+        margin-left: 10vh;
+        top: 26.5vh;
+        height: 820px;
+    }
+}
